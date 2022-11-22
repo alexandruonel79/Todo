@@ -1,0 +1,82 @@
+html {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(6, 64, 103, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+#titlu {
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+        font-size: 100px;
+        font-weight: 100;
+        color: rgba(175, 47, 47, 0.15);
+}
+
+.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+#interactiune {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+}
+
+#slideDown {
+        height: 100%;
+        border: none;
+        width: 100px;
+}
+
+#numeTask {
+        height: 100%;
+        width: 400px;
+}
+
+.todos {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        text-align: center;
+}
+
+.todos p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.paragrafe {
+        background-color: aliceblue;
+        height: 100%;
+        width: 400px;
+        margin: 0 auto;
+}
+
+.check {
+        height: 100%;
+        background-color: aliceblue;
+        width: 100px;
+        border: none;
+}
+
+.optiuni {
+        display: flex;
+        flex-direction: row;
+        height: 35px;
+        text-align: center;
+}
+
+.optiuniButoane {
+        height: 100%;
+        width: 100px;
+}
+
+#itemsLeft {
+        height: 100%;
+        width: 100px;
+        background-color: aliceblue;
+        margin: 0 auto;
+}
